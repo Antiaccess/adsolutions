@@ -68,12 +68,6 @@ ul {
     width: 100%;
 }
 
-.photo {
-    background-image: url("https://static.pexels.com/photos/450271/pexels-photo-450271.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
 .triangle_down {
 	width: 0;
 	height: 0;
@@ -207,4 +201,12 @@ body {margin:0;}
 .flickity-enabled:focus .flickity-viewport {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
+}
+
+.carobkgnd {
+  background-image: url("../images/ozharvest/caro.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
 }
