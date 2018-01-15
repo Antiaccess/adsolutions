@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Anthony Drane - UX Portfolio</title>
+  <meta name="description" content="UX Designer based in Sydney">
+  <meta name="keywords" content="UX Designer, ux, design, web design, ui, sketch">
+  <meta name="author" content="Anthony Drane">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Nav Bar
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  <script>
+    $(function () {
+      $('a[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 800);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- NavBar
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+      <div class="topnav row" id="myTopnav">
+        <a href="#myTopnav" class="active">
+          <img src="images/favicon.png" style="width: 51px; text-align: left">
+        </a>
+        <a target="_blank" class="navright" style="float: right" href="files/resume.pdf">RESUME</a>
+        <a href="#about" class="navright" style="float: right"> ABOUT</a>
+        <a href="#work" class="navright" style="float: right">WORK</a>
+        <a href="javascript:void(0);" style="font-size:31px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Bio -->
+    <div class="bio">
+      <div class="container">
+        <div class="row">
+          <div class="column" style="text-align: center; margin-top: 6%; margin-bottom: 2%">
+            <p class="playfair" style="font-size: 20px; margin-bottom: 0%">Anthony Drane:</p>
+            <h2 class="playfair" style="font-weight:400; margin-bottom: 0%">Experience Designer</h2>
+            <p style="margin-top: 1%"><img src="images/icons/location.png" style="height: 16px"> Sydney, NSW</p>
+            <p style="font-size: 18px; margin-top: 4%; margin-bottom: 4%">While the journalist in me seeks to investigate and make meaning from data, the designer in me seeks to empower
+              individuals and strengthen organisations through empathy.
+              <p>
+                <p>
+                  <a target="_blank" href="http://linkedin.com/in/anthony-drane"><img src="images/icons/li.png"></a>
+                  <a target="_blank" href="http://twitter.com/anthonydrane"><img src="images/icons/twitter.png"></a>
+                  <a target="_blank" href="http://codepen.io/antiaccess"><img src="images/icons/codepen.png"></a>
+                  <a target="_blank" href="mailto:anthonycharlesdrane@gmail.com"><img src="images/icons/email.png"></a>
+                </p>
+                <p><a href="#work"><img src="images/icons/arrow.png"></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects -->
+    <div class="projects" id="work">
+      <div class="container">
+        <div class="row">
+          <div class="one-half column" style="text-align: center; margin-top: 6%; margin-bottom: 1%">
+            <img class="phone" src="images/cwt-mockup.png">
+          </div>
+          <div class="one-half column" style="margin-top: 6%; margin-bottom: 5%">
+            <p>Website Redesign | City Water Technology | 2017</p>
+            <h4 class="playfair">Framing business development within client needs</h4>
+            <p>A modular and integrated web solution which allows potential clients to quickly determine the competencies, key
+              people and reference projects of CWT within the context of their needs.
+            </p>
+            <a href="CityWaterTechnology.html"><button href="CityWaterTechnology.html">View Case Study</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="one-half column" style="text-align: center; margin-top: 5%; margin-bottom: 5%">
+            <img class="phone" src="images/oh-mockup.png">
+          </div>
+          <div class="one-half column" style="margin-top: 5%; margin-bottom: 5%">
+            <p>Concept Mobile App | OzHarvest | 2017</p>
+            <h4 class="playfair">Understanding food waste and barriers to sustainability</h4>
+            <p>A meal planning app to help people lessen their food consumption footprint via planning facilitation, education,
+              goal setting and motivational insights.
+            </p>
+            <a href="OzHarvest.html"><button>View Case Study</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About: Photo -->
+    <div class="photo" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="one-half column" style="text-align: center; margin-top: 40%; margin-bottom: 15%">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About: Content -->
+    <div class="container">
+      <div class="row" style="text-align: justify; margin-top: 4%">
+        <div class="one column">
+          <p></p>
+        </div>
+        <div class="ten columns">
+          <p><span style="font-weight:bold">Hey! I'm Anthony, a contemplative and conceptual thinker with an aptitude for research, writing and collaborative design.</span><br><br>            With curiosity in User Experience & Service Design fuelled by a recent visit to Texas' South by South-West conference
+            (SXSW2017), I returned committed to solving big problems, designing scientifically and doing impactful work.
+            Immediately I was attending conferences, meetup's and having coffees with UXer's who convinced me to step back
+            from a full-time role as a non-linear editor at Channel Nine and spend two-and-a-half months immersed in full-time,
+            practical UX study at General Assembly.
+          </p>
+        </div>
+        <div class="one column">
+          <p></p>
+        </div>
+      </div>
+      <div class="row" style="text-align: justify; margin-top: 0%; margin-bottom: 5%">
+        <div class="four columns">
+          <p class="playfair" style="text-align: left; font-size: 20px; font-weight: 600; color: #A9CF54">01.</p>
+          <p>I believe in advocating for naked truth first and foremost. This means I investigate and collaborate with stakeholders, designers, users and any related parties I can get my hands on, to discover the insights that allow for simple, intuitive and impactful designs.</p>
+        </div>
+        <div class="four columns">
+          <p class="playfair" style="text-align: left; font-size: 20px; font-weight: 600; color: #A9CF54">02.</p>
+          <p>I’m motivated to fail fast, cheap and early so the right solution is found before the fallacy of sunk costs takes over. Investing time up front leads to win-wins for organisations and the people they serve, and gives products and services the best opportunity to thrive in the darwinian free market.</p>
+        </div>
+        <div class="four columns">
+          <p class="playfair" style="text-align: left; font-size: 20px; font-weight: 600; color: #A9CF54">03.</p>
+          <p>I see the world as a complex and interconnected set of systems. As such, I want to understand and learn from diverse industries and groups of people, believing every project will inform the next. I appreciate the multidisciplinary nature of UX Design, which aligns with my interests in psychology, futurism and philosophy.</p>
+
+        </div>
+      </div>
+      <div class="row" style="text-align: justify">
+          <div class="one column">
+              <p></p>
+            </div>  
+        <div class="ten columns">
+            <p>Although I'm new to the world of UX Design, I pull a lot of relevant experience and soft-skills from my professional and educational history:
+              <ul style="margin-left: 15px; text-align:left">
+                <li>from 6 months at UTS studying Visual Communication, I bring fundamentals in typography, markings, composition and adobe software.</li>
+                <li>from studying journalism at CSU, I bring critical thinking, writing, debate, presenting, interviewing, research synthesis and storytelling.</li>
+                <li>from presenting news bulletins on 2MCE local radio, I bring interviewing, rundown design and on-air presenting.</li>
+                <li>from my own personal study, I bring emotional intelligence and front-end development fundamentals (HTML, CSS & JS).</li>
+                <li>from news video editing at Channel 9, I bring stakeholder engagement, visual storytelling, leadership skills and working under the pressure of tight deadlines.</li>
+              </ul>
+              <br>
+                <span style="font-style: italic">I am currently freelancing at Channel 9, whilst working as a UX/UI designer on a side-project in the automotive industry.</span></p>
+          </div>
+          <div class="one column">
+              <p></p>
+            </div>
+        </div>
+      <div class="row">
+        <div class="one column"><p></p></div>
+        <div class="nine columns">
+          <h1>Let's make something <span style="color: #4A90E2; font-weight:400; text-decoration: underline; text-decoration-color: #F7E867; text-decoration-style:unset">great together</span>            <span style="font-size: 26px">| <a target="_blank" href="http://linkedin.com/in/anthony-drane"><img src="images/icons/li.png"></a> 
+           | <a target="_blank" href="mailto:anthonycharlesdrane@gmail.com"><img src="images/icons/email.png"></a> |</span></h1>
+        </div>
+        <div class="two columns">
+          <div class="triangle_down"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section class="footer">
+    <div>
+      <div class="container">
+        <div class="one-half column">© Designed and Developed by Anthony Drane.</div>
+        <div class="one-half column" style="text-align:right">
+          <a href="mailto:anthonycharlesdrane@gmail.com">Email</a> |
+          <a target="_blank" href="http://linkedin.com/in/anthony-drane">LinkedIn</a> |
+          <a target="_blank" href="http://twitter.com/anthonydrane">Twitter</a> |
+          <a target="_blank" href="http://codepen.io/antiaccess">Codepen</a> |
+          <a target="_blank" href="files/resume.pdf">Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+</body>
+
+</html>
