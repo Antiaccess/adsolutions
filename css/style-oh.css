@@ -207,11 +207,3 @@ body {margin:0;}
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
-
-.carobkgnd {
-  background-image: url("../images/ozharvest/caro.png");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    position: relative;
-}
