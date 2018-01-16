@@ -137,6 +137,9 @@ body {margin:0;}
     float: right;
     display: block;
   }
+.carobkgnd {
+    min-height: 250px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -151,7 +154,9 @@ body {margin:0;}
     display: block;
     text-align: left;
   }
-
+.carobkgnd {
+    min-height: 350px;
+  }
 }
 
 /*carousel*/
