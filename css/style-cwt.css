@@ -11,8 +11,11 @@ p {
 }
 
 .bio {
-    background-color: #4A90E2;
-    background-size: cover;
+    background-image: url("../images/icons/topblue-cw.svg");
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 400px;
+    max-width: 4000px;
 }
 
 .cs_img {

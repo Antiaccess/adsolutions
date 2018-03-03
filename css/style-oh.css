@@ -11,8 +11,11 @@ p {
 }
 
 .bio {
-    background-color: #F7E867;
-    background-size: cover;
+    background-image: url("../images/icons/topyellow-oh.svg");
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 400px;
+    max-width: 4000px;
 }
 
 .playfair {
