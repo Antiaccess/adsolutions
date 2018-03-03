@@ -32,10 +32,12 @@
 }
 
 .photo-bg {
-  background-color: #F7E867;
-  background-size: cover;
+  background-image: url("../images/icons/topblue.svg");
+  background-repeat: repeat;
+  
   background-position: top;
   max-width: 4000px;
+  
 }
 
 .triangle_down {
