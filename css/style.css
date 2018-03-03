@@ -31,6 +31,13 @@
     max-width: 4000px;
 }
 
+.photo-bg {
+  background-color: #F7E867;
+  background-size: cover;
+  background-position: top;
+  max-width: 4000px;
+}
+
 .triangle_down {
 	width: 0;
 	height: 0;
