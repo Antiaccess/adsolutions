@@ -6,13 +6,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113395071-1"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-113395071-1');
+    gtag('config', 'UA-113395071-1');
   </script>
-  
+
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
@@ -80,6 +80,11 @@
 
 <body>
   <div class="wrapper">
+    <!-- carousel
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script>
+      $(document).ready(function () { $('#caroload').css('width', '100%'); });
+    </script>
     <!-- NavBar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
@@ -114,9 +119,11 @@
             <h4 class="topicHead">The Challenge</h4>
             <p>OzHarvest is the first perishable food rescue organisation in Australia; collecting excess quality food from
               donors and delivering it, direct and free of charge, to more than one thousand charities across the country
-              as well as hosting their own <span style="font-style:italic">‘take what you need, give what you can’</span>              supermarket.
-              <br><br>Now, OzHarvest wants to branch out from food rescue and leverage technology to educate people from
-              all walks of life on nutrition, food waste, food security and sustainability, then move them to action!
+              as well as hosting their own
+              <span style="font-style:italic">‘take what you need, give what you can’</span> supermarket.
+              <br>
+              <br>Now, OzHarvest wants to branch out from food rescue and leverage technology to educate people from all walks
+              of life on nutrition, food waste, food security and sustainability, then move them to action!
               <span style="font-style:italic">(Fictitious Brief)</span>
             </p>
           </div>
@@ -124,14 +131,20 @@
             <h4 class="topicHead">Duration</h4>
             <p>2 week, research-led, collaborative sprint (Student Project)</p>
             <h4 class="topicHead">Team</h4>
-            <p>Anthony Drane<br>Alastair Floyd<br>Harriet Stockley</p>
+            <p>Anthony Drane
+              <br>Alastair Floyd
+              <br>Harriet Stockley</p>
             <h4 class="topicHead">Skills and Methods</h4>
             <p>Surveys, User Interviews, Affinity Mapping, Personas, Market Analysis, Concept-Mapping, Feature Prioritisation,
               Sketching, Design Studio, User Walkthroughs, User Journeys, Wire-framing & Requirements mapping.
             </p>
           </div>
         </div>
-        <div class="row" style="text-align: center; margin-top: 5%; margin-bottom: 5%"><a href="#approach"><img src="images/icons/arrow.png" style="width: 35px"></a></div>
+        <div class="row" style="text-align: center; margin-top: 5%; margin-bottom: 5%">
+          <a href="#approach">
+            <img src="images/icons/arrow.png" style="width: 35px">
+          </a>
+        </div>
       </div>
     </div>
     <!-- Setting the Stage -->
@@ -141,13 +154,16 @@
       </div>
       <div class="row">
         <div class="six columns">
-          <a data-fancybox="gallery" href="images/ozharvest/team.png"><img src="images/ozharvest/team.png" class="cs_img"></a>
+          <a data-fancybox="gallery" href="images/ozharvest/team.png">
+            <img src="images/ozharvest/team.png" class="cs_img">
+          </a>
         </div>
         <div class="six columns">
           <p>Initially, our team approached the sprint by interpreting the brief, brainstorming relevant UX methodologies and
             determining objectives for the two weeks. We also wanted to define and explore our current assumptions around
-            OzHarvest’s Four Pillars: food waste, nutrition, food security & sustainability. <br><br>This lead us to develop
-            upfront goals:
+            OzHarvest’s Four Pillars: food waste, nutrition, food security & sustainability.
+            <br>
+            <br>This lead us to develop upfront goals:
           </p>
         </div>
       </div>
@@ -160,7 +176,9 @@
               <li>If appropriate, design a digital solution that changes behaviour (considering the BJ Fogg model).</li>
             </ul>
           </p>
-          <a href="#outcome"><button>Jump to Outcome</button></a>
+          <a href="#outcome">
+            <button>Jump to Outcome</button>
+          </a>
         </div>
       </div>
       <div class="row" style="margin-top: 2%">
@@ -174,24 +192,28 @@
       <div class="container" style="margin-top: 4%; margin-bottom: 4%">
         <div class="row">
           <div class="column">
-            <p class="title"><span>RESEARCH & SYNTHESIS</span></p>
+            <p class="title">
+              <span>RESEARCH & SYNTHESIS</span>
+            </p>
           </div>
         </div>
         <div class="row">
           <div class="six columns">
             <h4 class="topicHead">Reviewing OzHarvest's Website</h4>
             <p>An analysis of OzHarvest’s web content exposed a broader framework within which our solution would have to fit.
-              We discovered their mission statement for education is <span style="font-style: italic">‘to increase community connectedness, improve self-worth
-                and confidence,’</span> as well as getting volunteers to engage with their charitable programmes. Existing
-              education programmes exist in the form of on-site workshops on nutrition, low-cost meals, budgeting, reading
-              food labels, food storage & shopping/cooking tips. Finally, they have an existing framework of advice, recipes,
-              research and statistics, centreing around food-waste, which provided a framework to validate our ideas against
-              throughout our design process.
+              We discovered their mission statement for education is
+              <span style="font-style: italic">‘to increase community connectedness, improve self-worth and confidence,’</span> as well as getting volunteers
+              to engage with their charitable programmes. Existing education programmes exist in the form of on-site workshops
+              on nutrition, low-cost meals, budgeting, reading food labels, food storage & shopping/cooking tips. Finally,
+              they have an existing framework of advice, recipes, research and statistics, centreing around food-waste, which
+              provided a framework to validate our ideas against throughout our design process.
             </p>
 
           </div>
           <div class="six columns">
-            <a data-fancybox="gallery" href="images/ozharvest/ozharvest-van.png"><img src="images/ozharvest/ozharvest-van.png" class="cs_img"></a>
+            <a data-fancybox="gallery" href="images/ozharvest/ozharvest-van.png">
+              <img src="images/ozharvest/ozharvest-van.png" class="cs_img">
+            </a>
           </div>
         </div>
         <div class="row" style="margin-top:4%">
@@ -199,36 +221,45 @@
             <img src="images/ozharvest/icon-buy.png" style="width: 70px">
             <p style="font-weight: 600">Buy What You Need</p>
             <p>
-              ☻ Check what food you already have<br> ☻ Plan your meals<br> ☻ Write + Shop to a list<br> ☻ Don’t buy too much
-              at once
+              ☻ Check what food you already have
+              <br> ☻ Plan your meals
+              <br> ☻ Write + Shop to a list
+              <br> ☻ Don’t buy too much at once
             </p>
           </div>
           <div class="four columns" style="text-align: center;">
             <img src="images/ozharvest/icon-eat.png" style="width: 70px">
             <p style="font-weight: 600">Eat What You Buy</p>
             <p>
-              ☻ Check the food in your fridge often<br> ☻ Look at dates, move near-expiry items to front<br> ☻ ‘Wasty Recipes’
-              – Love your leftovers<br> ☻ Freeze what you don’t need
+              ☻ Check the food in your fridge often
+              <br> ☻ Look at dates, move near-expiry items to front
+              <br> ☻ ‘Wasty Recipes’ – Love your leftovers
+              <br> ☻ Freeze what you don’t need
             </p>
           </div>
           <div class="four columns" style="text-align: center;">
             <img src="images/ozharvest/icon-stats.png" style="width: 70px">
             <p style="font-weight: 600">Statistics & Facts</p>
             <p>
-              ○ 1 in 5 shopping bags or $3'800 per household ends up in the bin<br> ○ >644'000 people receive food relief:
-              1/3 are children<br> ○ Food Waste costs the economy $20bn AUD/year<br>
+              ○ 1 in 5 shopping bags or $3'800 per household ends up in the bin
+              <br> ○ >644'000 people receive food relief: 1/3 are children
+              <br> ○ Food Waste costs the economy $20bn AUD/year
+              <br>
             </p>
           </div>
         </div>
         <div class="row">
           <div class="six columns">
             <h4 class="topicHead">Learning From Comparators</h4>
-            <a data-fancybox="gallery" href="images/ozharvest/comparators.png"><img src="images/ozharvest/comparators.png" class="cs_img"></a>
+            <a data-fancybox="gallery" href="images/ozharvest/comparators.png">
+              <img src="images/ozharvest/comparators.png" class="cs_img">
+            </a>
           </div>
           <div class="six columns">
-            <p><br>Wanting to understand the elements of successful digital solutions in the landscape of behaviour change,
-              ethical education and motivation, we took a detailed look at the features and functions of various popular
-              products and services. This investigation told us:
+            <p>
+              <br>Wanting to understand the elements of successful digital solutions in the landscape of behaviour change, ethical
+              education and motivation, we took a detailed look at the features and functions of various popular products
+              and services. This investigation told us:
               <ul>
                 <li>Food & Recipe applications do not go deeper than meal planning and shopping facilitation; there is little
                   ethical and education beyond natural social governance.</li>
@@ -247,19 +278,24 @@
             <p>Ozharvest’s ambitious concern of significantly lessening world hunger factors in the entirety of the population,
               so it was key to research a vast cross-section of people up front. We hypothesised that uncovering behaviours
               and actions with a survey would provide a platform from which to dig into motivations and beliefs with face-to-face
-              interviews (which we conducted guerrilla style; approaching strangers of the public).<br><br>Due to the sprint
-              duration, we narrowed our questions to most people’s main meal: dinner. We wanted to learn people’s habits
-              around shopping, consumption, food waste and the factors dictating their purchases, including any environmental
-              or ethical considerations. We grouped this qualitative data into insights, using over 200 post-its (or one
-              tree).
+              interviews (which we conducted guerrilla style; approaching strangers of the public).
+              <br>
+              <br>Due to the sprint duration, we narrowed our questions to most people’s main meal: dinner. We wanted to learn
+              people’s habits around shopping, consumption, food waste and the factors dictating their purchases, including
+              any environmental or ethical considerations. We grouped this qualitative data into insights, using over 200
+              post-its (or one tree).
             </p>
           </div>
           <div class="row">
             <div class="six columns">
-              <a data-fancybox="gallery" href="images/ozharvest/googleforms.png"><img src="images/ozharvest/googleforms.png" class="cs_img"></a>
+              <a data-fancybox="gallery" href="images/ozharvest/googleforms.png">
+                <img src="images/ozharvest/googleforms.png" class="cs_img">
+              </a>
             </div>
             <div class="six columns">
-              <a data-fancybox="gallery" href="images/ozharvest/post-its.png"><img src="images/ozharvest/post-its.png" class="cs_img"></a>
+              <a data-fancybox="gallery" href="images/ozharvest/post-its.png">
+                <img src="images/ozharvest/post-its.png" class="cs_img">
+              </a>
             </div>
           </div>
         </div>
@@ -270,7 +306,9 @@
       <div class="container" style="margin-top: 4%; margin-bottom: 4%">
         <div class="row">
           <div class="column">
-            <p class="title"><span>RESEARCH SYNTHESIS</span></p>
+            <p class="title">
+              <span>RESEARCH SYNTHESIS</span>
+            </p>
           </div>
         </div>
         <div class="row" style="border-bottom: 1px dashed black">
@@ -357,11 +395,16 @@
             <p style="font-weight: 600">Overwhelmed Idealist</p>
             <p style="font-style: italic; border-top: dashed 1px black; border-bottom: dashed 1px black; margin-bottom: 2%; margin-top: 2%">"I want to make a difference, but there's too much information & I don't know what's right"</p>
             <p style="text-align: left">
-              ○ Has ethical & environmental concerns, but doesn't know how to fully live them.<br> ○ Feels good when makng
-              future-conscious choices.<br> ○ Doesn't trust the reliability of information re: nutrition & ethics.<br>
-              <span style="font-weight: 600">Needs:</span><br> ○ To believe in the information he's accessing.<br> ○ To have
-              assistance making ethical & healthy choices.<br> ○ To get feedback on the impact he's making.<br> ○ To be involved
-              in a like-minded community.<br>
+              ○ Has ethical & environmental concerns, but doesn't know how to fully live them.
+              <br> ○ Feels good when makng future-conscious choices.
+              <br> ○ Doesn't trust the reliability of information re: nutrition & ethics.
+              <br>
+              <span style="font-weight: 600">Needs:</span>
+              <br> ○ To believe in the information he's accessing.
+              <br> ○ To have assistance making ethical & healthy choices.
+              <br> ○ To get feedback on the impact he's making.
+              <br> ○ To be involved in a like-minded community.
+              <br>
             </p>
           </div>
           <div class="four columns">
@@ -369,12 +412,15 @@
             <p style="font-weight: 600">Distracted Fast-Laner</p>
             <p style="font-style: italic; border-top: dashed 1px black; border-bottom: dashed 1px black; margin-bottom: 2%; margin-top: 2%">"I believe I care, but I'm too busy to make decisions about my food choices"</p>
             <p style="text-align:left">
-              ○ Time Poor: Doesn't plan ahead much or is incomplete in planning.<br> ○ Makes uninformed, unaware or emotional
-              decisions when shopping.<br> ○ Accepts food waste as normal (though dissappointing)<br>
-              <span style="font-weight: 600">Needs:</span><br> ○ To have a lot of assistance, accuracy and efficiency in
-              planning.
-              <br> ○ To have all pertinent information readily accessible.<br> ○ To understand and discover resonating values,
-              how to live them & their impact.<br>
+              ○ Time Poor: Doesn't plan ahead much or is incomplete in planning.
+              <br> ○ Makes uninformed, unaware or emotional decisions when shopping.
+              <br> ○ Accepts food waste as normal (though dissappointing)
+              <br>
+              <span style="font-weight: 600">Needs:</span>
+              <br> ○ To have a lot of assistance, accuracy and efficiency in planning.
+              <br> ○ To have all pertinent information readily accessible.
+              <br> ○ To understand and discover resonating values, how to live them & their impact.
+              <br>
             </p>
           </div>
           <div class="four columns">
@@ -382,10 +428,16 @@
             <p style="font-weight: 600">Family Shopper & Cook</p>
             <p style="font-style: italic; border-top: dashed 1px black; border-bottom: dashed 1px black; margin-bottom: 2%; margin-top: 2%">"Shopping & food preparation is a necessity, but I try to keep it basic, quick and efficient"</p>
             <p style="text-align:left">
-              ○ Time & Money Stretched.<br> ○ Plans ahead incompletely, or on the spot, but dislikes waste.<br> ○ Tailors
-              meals to multiple people's preferences & needs; Family is priority.<br>
-              <span style="font-weight: 600">Needs:</span><br> ○ To have clear, concise & easy choices.<br> ○ To have the
-              ability to plan on-the-go & store ideas.<br> ○ To be able to share & pass responsibilities with others.<br>              ○ To ensure his choices meet family needs & budget.<br>
+              ○ Time & Money Stretched.
+              <br> ○ Plans ahead incompletely, or on the spot, but dislikes waste.
+              <br> ○ Tailors meals to multiple people's preferences & needs; Family is priority.
+              <br>
+              <span style="font-weight: 600">Needs:</span>
+              <br> ○ To have clear, concise & easy choices.
+              <br> ○ To have the ability to plan on-the-go & store ideas.
+              <br> ○ To be able to share & pass responsibilities with others.
+              <br> ○ To ensure his choices meet family needs & budget.
+              <br>
             </p>
           </div>
         </div>
@@ -393,10 +445,11 @@
           <div class="column">
             <h4 class="topicHead">The Birth of 3 Hypotheses</h4>
             <p>BJ Fogg’s behaviour model indicates that three elements must align at the same moment for a behaviour to occur:
-              a value (Motivation), the accessibility of outcome (Ability) and a call to action (Trigger).<br><br> With a
-              clear overlap between our findings, the Fogg behaviour model and the goal of the brief, we decided to create
-              three separate hypotheses which each reflect a single element of the equation and enable ideation which intrinsically
-              compels the behaviour change OzHarvest desires.</p>
+              a value (Motivation), the accessibility of outcome (Ability) and a call to action (Trigger).
+              <br>
+              <br> With a clear overlap between our findings, the Fogg behaviour model and the goal of the brief, we decided
+              to create three separate hypotheses which each reflect a single element of the equation and enable ideation
+              which intrinsically compels the behaviour change OzHarvest desires.</p>
           </div>
         </div>
         <div class="row">
@@ -405,19 +458,26 @@
           </div>
           <div class="nine columns" style="border: #F7E867; border-style:double; padding: 10px;">
             <h4 class="topicHead">Ability</h4>
-            <p><span style="font-weight: 650">Proposition:</span> Advance planning and shopping for meals increases consumption
-              efficiency.
-              <br><br>If we support people in planning, shopping and meal preparation, then they will waste less food because
-              they will be more likely to buy and use only what they know they need.</p>
+            <p>
+              <span style="font-weight: 650">Proposition:</span> Advance planning and shopping for meals increases consumption efficiency.
+              <br>
+              <br>If we support people in planning, shopping and meal preparation, then they will waste less food because they
+              will be more likely to buy and use only what they know they need.</p>
             <h4 class="topicHead">+ Motivation</h4>
-            <p><span style="font-weight: 650">Proposition:</span> People are more likely to achieve their goals when they express
-              them and receive support.
-              <br><br><span style="font-style: italic">If we encourage users to consider their goals and values around food, then we will be able to support those goals through product features because users need relevant interactions that reinforce their objectives.</span>
+            <p>
+              <span style="font-weight: 650">Proposition:</span> People are more likely to achieve their goals when they express them and receive support.
+              <br>
+              <br>
+              <span style="font-style: italic">If we encourage users to consider their goals and values around food, then we will be able to support those
+                goals through product features because users need relevant interactions that reinforce their objectives.</span>
             </p>
             <h4 class="topicHead">+ Trigger</h4>
-            <p><span style="font-weight: 650">Proposition:</span> People repeat engagement with experiences that have rewarding
-              outcomes.
-              <br><br><span style="font-style: italic">If we reveal delightful and unexpected insights based on the effects of user action, then solution utilisation will increase because it will engender value attached to their actions and deepen their knowledge and investment.</span>
+            <p>
+              <span style="font-weight: 650">Proposition:</span> People repeat engagement with experiences that have rewarding outcomes.
+              <br>
+              <br>
+              <span style="font-style: italic">If we reveal delightful and unexpected insights based on the effects of user action, then solution utilisation
+                will increase because it will engender value attached to their actions and deepen their knowledge and investment.</span>
             </p>
           </div>
         </div>
@@ -428,7 +488,9 @@
       <div class="container" style="margin-top: 4%; margin-bottom: 4%">
         <div class="row">
           <div class="column">
-            <p class="title"><span>DESIGN & ITERATION</span></p>
+            <p class="title">
+              <span>DESIGN & ITERATION</span>
+            </p>
           </div>
         </div>
         <div class="row">
@@ -445,9 +507,9 @@
           </div>
           <div class="eight columns">
             <p>At this point we began to envision features for a mobile meal-planning solution because of the convenience and
-              portability required for day-to-day adoption. The comparative analysis showed us that existing solutions
-              do not cohesively combine habit facilitation, knowledge expansion AND shopping support; so our conception at
-              the time included:
+              portability required for day-to-day adoption. The comparative analysis showed us that existing solutions do
+              not cohesively combine habit facilitation, knowledge expansion AND shopping support; so our conception at the
+              time included:
               <ul>
                 <li>Core: Onboarding > Recipe Library > Meal Planning > Shopping Support.
                 </li>
@@ -458,8 +520,12 @@
         </div>
         <div class="row">
           <div class="column">
-            <p style="border-style:double; border-color: #F7E967; padding: 2%"><span class="topicHead">Solution Statement:</span> Our idea to address OzHarvest’s problem is to create an app
-              <span style="font-style: italic">which enables people to plan & purchase food efficiently, as well as learn about the effects of their choices.</span>              The main groups of people who will benefit from our solution will be <span style="font-style: italic">:the time/money poor and those with personal concerns regarding their consumption.</span></p>
+            <p style="border-style:double; border-color: #F7E967; padding: 2%">
+              <span class="topicHead">Solution Statement:</span> Our idea to address OzHarvest’s problem is to create an app
+              <span style="font-style: italic">which enables people to plan & purchase food efficiently, as well as learn about the effects of their choices.</span>
+              The main groups of people who will benefit from our solution will be
+              <span style="font-style: italic">:the time/money poor and those with personal concerns regarding their consumption.</span>
+            </p>
           </div>
         </div>
         <div class="row">
@@ -484,8 +550,8 @@
               those which increased motivation or triggers from the BJ Fogg Model.
             </p>
             <a class="matrix" href="#">
-                <img src="images/ozharvest/matrix-a.png" style="width:100%">
-                <img src="images/ozharvest/matrix-b.png" style="width:100%">
+              <img src="images/ozharvest/matrix-a.png" style="width:100%">
+              <img src="images/ozharvest/matrix-b.png" style="width:100%">
             </a>
             <p>The outcome was a clustering of features that related to OzHarvest’s existing mission – food waste & sustainability
               – in the high impact quadrants. Although these became the focus for our proposal of Minimum Viable Product
@@ -502,7 +568,9 @@
         </div>
         <div class="row">
           <div class="six columns">
-            <a data-fancybox="gallery" href="images/ozharvest/designstudio.png"><img src="images/ozharvest/designstudio.png" class="cs_img"></a>
+            <a data-fancybox="gallery" href="images/ozharvest/designstudio.png">
+              <img src="images/ozharvest/designstudio.png" class="cs_img">
+            </a>
           </div>
           <div class="six columns">
             <ul>
@@ -520,7 +588,9 @@
       <div class="container" style="margin-top: 4%; margin-bottom: 4%">
         <div class="row">
           <div class="column">
-            <p class="title" style="margin-bottom:0%"><span>THE OUTCOME</span></p>
+            <p class="title" style="margin-bottom:0%">
+              <span>THE OUTCOME</span>
+            </p>
           </div>
         </div>
         <div class="row">
@@ -538,30 +608,44 @@
               ensure they were able to only invest the time and energy that matches the value return they desire from the
               app in the early stages of adoption. This meant that core features like planning, recipe libraries, search
               & filtering, and shopping lists would be front-and-centre while secondary features like causes, goal setting
-              and impact visualization would be less visible or at least optional. <span style="font-style:italic">(if below image doesn't display correctly,
-              please resize your browser or turn your mobile device on the side).</span>
+              and impact visualization would be less visible or at least optional.
+              <span style="font-style:italic">(if below image doesn't display correctly, please resize your browser or turn your mobile device on the side).</span>
             </p>
           </div>
         </div>
         <div class="row" style="margin-bottom:6%; width:100%; height:0; padding-bottom: 59%">
-          <div class="main-carousel carobkgnd" data-flickity='{ "cellAlign": "left", "contain": true }' style="margin-bottom:6%; width:100%; height:0; padding-bottom: 59%">
-              <div class="carousel-cell"><img src="images/ozharvest/flow1.png" style="width:100%"></div>
-              <div class="carousel-cell"><img src="images/ozharvest/flow2.png" style="width:100%"></div>
-              <div class="carousel-cell"><img src="images/ozharvest/flow3.png" style="width:100%"></div>
-              <div class="carousel-cell"><img src="images/ozharvest/flow4.png" style="width:100%"></div>
-              <div class="carousel-cell"><img src="images/ozharvest/flow5.png" style="width:100%"></div>
+          <div class="main-carousel carobkgnd" id="caroload" data-flickity='{ "cellAlign": "left", "contain": true }' style="margin-bottom:6%; width:100%; height:0; padding-bottom: 59%">
+            <div class="carousel-cell">
+              <img src="images/ozharvest/flow1.png" style="width:100%">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/ozharvest/flow2.png" style="width:100%">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/ozharvest/flow3.png" style="width:100%">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/ozharvest/flow4.png" style="width:100%">
+            </div>
+            <div class="carousel-cell">
+              <img src="images/ozharvest/flow5.png" style="width:100%">
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="six columns">
             <h4 class="topicHead">Function Map</h4>
-            <a data-fancybox="gallery" href="images/ozharvest/functionmap.png"><img src="images/ozharvest/functionmap.png" class="cs_img"></a>
+            <a data-fancybox="gallery" href="images/ozharvest/functionmap.png">
+              <img src="images/ozharvest/functionmap.png" class="cs_img">
+            </a>
             <p>To help OzHarvest better understand the investment and requirements to make our solution functional, we developed
               a function map that details the supporting infrastructure necessary to manage the application at a high level.</p>
           </div>
           <div class="six columns">
             <h4 class="topicHead">Marketing Campaign</h4>
-            <a data-fancybox="gallery" href="images/ozharvest/marketing.png"><img src="images/ozharvest/marketing.png" class="cs_img"></a>
+            <a data-fancybox="gallery" href="images/ozharvest/marketing.png">
+              <img src="images/ozharvest/marketing.png" class="cs_img">
+            </a>
             <p>To get buy-in for a fresh face in the marketplace, we considered leveraging existing OzHarvest partnerships and
               exposure to market our solution. With big chains as the primary locations for grocery shopping and OzHarvest’s
               partnership with Woolworths, we took some primary functionality from the app and designed a digital kiosk which
@@ -577,7 +661,8 @@
               <li>Host a progress meeting with OzHarvest to walk through project and confirm feasibility and alignment.</li>
               <li>Create a prototype to validate with user scenario testing to help answer: will people use it?</li>
               <li>Determine a charismatic and supportive personality for the application that aligns with OzHarvest’s brand and
-                mission.</li>
+                mission.
+              </li>
               <li>Generate or source educational material and experiment with creative and innovate ways to convey it; infographics,
                 data visualisations, interactive information & multi-faced linking for example.</li>
               <li>Concept test features beyond MVP with members of the public.</li>
@@ -591,7 +676,9 @@
       <div class="container" style="margin-top: 4%; margin-bottom: 4%">
         <div class="row">
           <div class="column">
-            <p class="title"><span>RETROSPECTIVE</span></p>
+            <p class="title">
+              <span>RETROSPECTIVE</span>
+            </p>
           </div>
         </div>
         <div class="row">
