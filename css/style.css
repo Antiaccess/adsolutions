@@ -31,7 +31,7 @@
   align-items: center;
   display: flex;
   vertical-align: middle;
-  padding-top: 22px;
+  padding-top: 25px;
 }
 
 .playfair {
@@ -77,6 +77,10 @@ article {
     top: 0;
 }*/
 body {margin:0;}
+
+.ic {
+  text-decoration: none;
+}
 
 .topnav {
   overflow: hidden;
