@@ -37,11 +37,51 @@
 .playfair {
   font-family: 'Playfair Display', serif;
 }
+
 .photo {
     background-image: url("../images/me.jpg");
     background-size: cover;
     background-position: top;
     max-width: 4000px;
+}
+
+.comingsoon-become {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/become-stock.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 2000px;
+  height: 100%;
+  border: rgb(0, 0, 0) 1px;
+  border-radius: 5px;
+}
+
+.comingsoon-proauto {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/proauto-stock.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 2000px;
+  height: 100%;
+  border: rgb(0, 0, 0) 1px;
+  border-radius: 5px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px dashed #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 .photo-bg {
@@ -59,6 +99,16 @@
   border-top: 120px solid #A9CF54;
   fill: rgba(117, 190, 218, 0.0);
   text-align: left;
+}
+
+.comingsoon {
+  color: white;
+}
+
+.comingsoon:hover {
+  background-color: #F7E867;
+  border-color: #F7E867; 
+  color: black
 }
 
 button:hover {
