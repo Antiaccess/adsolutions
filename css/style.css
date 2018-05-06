@@ -1,12 +1,18 @@
 
 .bio {
-    background-color: #F7E867;
-    background-size: cover;
+  background-image: url("../images/icons/topyellow-oh.svg");
+  background-repeat: repeat;
+  background-position: top;
+  background-size: 400px;
+  max-width: 4000px;
 }
 
 .footer {
-  background-color: #F7E867;
-  background-size: cover;
+  background-image: url("../images/icons/topyellow-oh.svg");
+  background-repeat: repeat;
+  background-position: top;
+  background-size: 400px;
+  max-width: 4000px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -157,7 +163,11 @@ body {margin:0;}
 }
 
 .topnav a:hover {
-  background-color: #f7e967;
+  background-image: url("../images/icons/topyellow-oh.svg");
+  background-repeat: repeat;
+  background-position: top;
+  background-size: 400px;
+  max-width: 4000px;
   color: black;
 }
 
@@ -190,4 +200,86 @@ body {margin:0;}
     text-align: left;
   }
 
+}
+
+/* BlockQuote */
+
+figure.snip1167 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: center;
+  align-content: center;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 200px;
+  /*max-width: 310px;*/
+  width: 100%;
+  color: #333;
+  text-align: center;
+  box-shadow: none !important;
+}
+figure.snip1167 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1167 img {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  z-index: 1;
+  position: relative;
+}
+figure.snip1167 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  font-style: italic;
+  background-color: #ececec;
+  padding: 65px 50px 30px 50px;
+  font-size: 1em;
+  font-weight: 500;
+  margin: -50px 0 0;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+figure.snip1167 blockquote:before,
+figure.snip1167 blockquote:after {
+  /*font-family: 'FontAwesome';*/
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1167 blockquote:before {
+  top: 70px;
+  left: 20px;
+}
+figure.snip1167 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.snip1167 .author {
+  padding: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+figure.snip1167 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.0em;
+}
+figure.snip1167 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+  font-size: 1.0em;
+  font-family: 'Playfair Display', serif;
 }
