@@ -52,14 +52,14 @@
 }
 
 /*Core Elements */
-body {background-color: #f3f3f3}
+body {background-color: #f3f3f3;}
 html,body{width: 100%; height: 100%; margin: 0px; padding: 0px; overflow-x: hidden;}
 
-p {font-size: 1em}
-*, body, p {font-family: 'quicksand', sans-serif; color: #060068}
-h2, h3, h4 {font-family: 'quicksand', sans-serif; font-weight: bold}
-h1 {font-family: 'gt_sectramedium', serif; font-size: 2em; font-weight: 900; color: #060068} /*hero*/
-h2 {font-size: 1.25em; font-weight: 700;color: #060068}
+p {font-size: 1em;}
+*, body, p {font-family: 'quicksand', sans-serif; color: #060068;}
+h2, h3, h4 {font-family: 'quicksand', sans-serif; font-weight: bold;}
+h1 {font-family: 'gt_sectramedium', serif; font-size: 2em; font-weight: 900; color: #060068;} /*hero*/
+h2 {font-size: 1.25em; font-weight: 700;color: #060068;}
 
 /* Container */
 .container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
@@ -71,12 +71,12 @@ h2 {font-size: 1.25em; font-weight: 700;color: #060068}
 @media (min-width:1600px){.container{max-width: 1440px !important;}}
 
 /*Navigation*/
-.myName {font-family: 'gt_sectramedium', serif; font-size: 1.7em;color: #060068; padding-top: 0.9em}
-.global-menu__wrap a {font-family: 'gt_sectramedium', serif; text-decoration: none; color: #fff}
-.global-menu__wrap a:hover {color: #060068}
+.myName {font-family: 'gt_sectramedium', serif; font-size: 1.7em;color: #060068; padding-top: 0.9em;}
+.global-menu__wrap a {font-family: 'gt_sectramedium', serif; text-decoration: none; color: #fff;}
+.global-menu__wrap a:hover {color: #060068;}
 
 /*Spacing*/
-section#caseSudies, section#blog, section#contact {margin-top: 10em}
+section#caseSudies, section#blog, section#contact {margin-top: 10em;}
 section#footer {margin: 2em 0;}
 .sectHead {background: #fff; font-family: 'gt_sectramedium', serif;font-size:1.5em; text-align: center; padding: 0.5em;}
 
@@ -104,7 +104,7 @@ color: #D94244;}
   background-color: #D94244;
 }
 
-button.slick-prev, button.slick-next {visibility: hidden}
+button.slick-prev, button.slick-next {visibility: hidden;}
 .btn-slick .btn:first-of-type:hover img {content: url("../img/arrow-l-rev.svg");}
 .btn-slick .btn:nth-child(2):hover img {content: url("../img/arrow-r-rev.svg");}
 
@@ -160,10 +160,10 @@ button.slick-prev, button.slick-next {visibility: hidden}
 
 
 /* #homePage - Hero */
-#hero {  margin-top: 3em; margin-bottom: 13em}
+#hero {  margin-top: 3em; margin-bottom: 13em;}
 
 .heroText {text-align: center; margin-top: -30%;}
-.heroText span {font-family: 'gt_sectramedium', serif; font-size: 1.5em; background-color:#fff; color: #060068; background: #fff; display: inline-block; padding: 0.15em}
+.heroText span {font-family: 'gt_sectramedium', serif; font-size: 1.5em; background-color:#fff; color: #060068; background: #fff; display: inline-block; padding: 0.15em;}
 
 svg,
 svg circle {fill: #D94244;}
@@ -276,9 +276,9 @@ svg circle {fill: #D94244;}
 
 .skill img {height: 50px; width: auto;}
 
-ul.slick-dots {display: none !important}
-.slick-dotted.slick-slider {margin-bottom: 0.5em !important}
-.btn-slick .skillsPrev {margin-left: 0em}
+ul.slick-dots {display: none !important;}
+.slick-dotted.slick-slider {margin-bottom: 0.5em !important;}
+.btn-slick .skillsPrev {margin-left: 0em;}
 
 /* Case Studies */
 #caseStudies .col-md-6 {
@@ -291,7 +291,7 @@ ul.slick-dots {display: none !important}
 	display: table;
 }
 
-.row.caseStudy {max-height: 50vh}
+.row.caseStudy {max-height: 50vh;}
 
 .csText {padding: 2em; padding-top: 4em;}
 .csText.extend-left-red {background-color: #D94244;}
@@ -305,10 +305,10 @@ ul.slick-dots {display: none !important}
   padding: 2.5vh;
 }
 @media (min-width:992px) {.csText div {padding-top: 2em}}
-.proAuto h2, .ozHarvest h2 {color: #fff}
+.proAuto h2, .ozHarvest h2 {color: #fff;}
 
 .csImg {background-color: #fff;padding: 1vh;position: relative;}
-.proAuto .csImg, .ozHarvest .csImg {background-color: #D94244}
+.proAuto .csImg, .ozHarvest .csImg {background-color: #D94244;}
 
 .caseStudy .csImg {
   vertical-align: middle;
@@ -331,12 +331,12 @@ ul.slick-dots {display: none !important}
   background-position: 50% 20%;
   background-repeat: no-repeat;
 }
-.quote, .reference {background-color: #fff; margin: 1em;  height: 100%}
+.quote, .reference {background-color: #fff; margin: 1em;  height: 100%;}
 
-.quote blockquote {font-weight: lighter; text-align: center}
+.quote blockquote {font-weight: lighter; text-align: center;}
 .quote .quoter {text-align: center;}
-.quote img, .quote span {display: inline-block !important; vertical-align: middle}
-.btn-slick .quotePrev {margin-left: 1em}
+.quote img, .quote span {display: inline-block !important; vertical-align: middle;}
+.btn-slick .quotePrev {margin-left: 1em;}
 
 .refText {background: #fff; padding: 1em; font-size: 1.75em; font-weight: bold;}
 .reference .col-sm-6, .reference .col-sm-6 .row {height: 100%;}
@@ -369,14 +369,14 @@ ul.slick-dots {display: none !important}
 .reference .row, .reference .col-md-12, .reference table {
   height: 100%;
 }
-.reference table {width: 100%}
+.reference table {width: 100%;}
 
-.reference table tr:first-of-type td {height: 65%; width: 50%}
-.reference table tr:nth-child(2) {height: 100%}
+.reference table tr:first-of-type td {height: 65%; width: 50%;}
+.reference table tr:nth-child(2) {height: 100%;}
 
 /*blog*/
 
-#blog .row > div {background-color: #fff}
+#blog .row > div {background-color: #fff;}
 
 #blog a {
 	width: 80%;
@@ -387,9 +387,9 @@ ul.slick-dots {display: none !important}
   display: block;
   margin: auto;
 }
-#blog h3 {background-color: #D94244; padding: 1em 2em 1em 2em; margin-top: 0; color: #fff}
-#blog a {color: #fff; text-decoration: none}
-#blog a:hover, #blog a:hover h3 {color: #060068; text-decoration: underline}
+#blog h3 {background-color: #D94244; padding: 1em 2em 1em 2em; margin-top: 0; color: #fff;}
+#blog a {color: #fff; text-decoration: none;}
+#blog a:hover, #blog a:hover h3 {color: #060068; text-decoration: underline;}
 
 #blog .col-md-5 {background-color: #D94244; color: #fff; padding-top: 2em;}
 
@@ -404,7 +404,7 @@ ul.slick-dots {display: none !important}
   text-align: center;
 }
 
-#contact .row {padding: 2em; background-color: #fff}
+#contact .row {padding: 2em; background-color: #fff;}
 .contactIcons img {width: 70px; height: auto; padding: 1em 0.75em 0em 0.75em;}
 
 
@@ -413,12 +413,12 @@ ul.slick-dots {display: none !important}
 /**    #caseStudies     **/
 /*************************/
 
-.global-menu__item {font-size: 3em !important}
-ul .global-menu__item {font-size: 1.5em !important}
+.global-menu__item {font-size: 3em !important;}
+ul .global-menu__item {font-size: 1.5em !important;}
 
 /*General Case Study*/
 .caseStudy .heroText {margin-top: 0;}
-.caseStudy #hero {margin-bottom: 8em}
+.caseStudy #hero {margin-bottom: 8em;}
 
 .caseStudy #hero .row:first-of-type {
   padding: 7em 0;
@@ -426,7 +426,7 @@ ul .global-menu__item {font-size: 1.5em !important}
   background-position: 25% 50% !important;
   animation: bounce 3s ease infinite;
  }
-  .caseStudy #hero .row:nth-child(2){margin-top:-10em}
+  .caseStudy #hero .row:nth-child(2){margin-top:-10em;}
  @keyframes bounce{
   50% {
       transform: translateY(10px);
@@ -436,15 +436,15 @@ ul .global-menu__item {font-size: 1.5em !important}
   }
 }
  
-.caseStudy #context {margin: 5em 0}
-.csRow > div {background: #fff; padding: 0 2em}
-.csContent {margin-bottom: 10em}
-.csRow img {width: 100%; padding: 0.25em}
+.caseStudy #context {margin: 5em 0;}
+.csRow > div {background: #fff; padding: 0 2em;}
+.csContent {margin-bottom: 10em;}
+.csRow img {width: 100%; padding: 0.25em;}
 
-.caseStudy #context div {text-align: center}
+.caseStudy #context div {text-align: center;}
  @media (min-width:844px){
-  .csRow > .col-md-3 {text-align: right}
-  .csContent .row:not(:first-of-type) > div {padding: 2em 1em}
+  .csRow > .col-md-3 {text-align: right;}
+  .csContent .row:not(:first-of-type) > div {padding: 2em 1em;}
 }
  
  /*************************/
@@ -453,10 +453,10 @@ ul .global-menu__item {font-size: 1.5em !important}
 #csCwt.caseStudy #hero .row:first-of-type {background: url("../img/cs-cityWater.png") no-repeat; background-size: 350px auto !important;}
 
 table.cwtInsights tr th {text-align:left; padding-left: 1em; background-color: #D94244;}
-table.cwtInsights tr th p { color: #ffffff}
-table.cwtInsights tr {border-top: 1px solid #060068}
-table.cwtInsights tr td {padding: 1em; vertical-align: top}
-table.cwtInsights tr td:first-of-type {width: 65%}
+table.cwtInsights tr th p { color: #ffffff;}
+table.cwtInsights tr {border-top: 1px solid #060068;}
+table.cwtInsights tr td {padding: 1em; vertical-align: top;}
+table.cwtInsights tr td:first-of-type {width: 65%;}
 
  /*************************/
 /**    #BecomeEdu        **/
@@ -469,12 +469,12 @@ table.cwtInsights tr td:first-of-type {width: 65%}
 #csOzharvest.caseStudy #hero .row:first-of-type {background: url("../img/ozharvest/van.png") no-repeat; background-size: 30% auto !important;}
 
 table.ozharvestInsights tr th {text-align:left; padding-left: 1em; background-color: #D94244;}
-table.ozharvestInsights tr th p { color: #ffffff}
-table.ozharvestInsights tr {border-top: 1px solid #060068}
-table.ozharvestInsights tr td {padding: 1em; vertical-align: top}
-table.ozharvestInsights tr td:first-of-type {width: 55%}
+table.ozharvestInsights tr th p { color: #ffffff;}
+table.ozharvestInsights tr {border-top: 1px solid #060068;}
+table.ozharvestInsights tr td {padding: 1em; vertical-align: top;}
+table.ozharvestInsights tr td:first-of-type {width: 55%;}
 
-.bjFogg h1 {font-size: 1.75em}
+.bjFogg h1 {font-size: 1.75em;}
 
  /*************************/ 
 /**** MEDIA QUERIES ****/
@@ -485,14 +485,14 @@ table.ozharvestInsights tr td:first-of-type {width: 55%}
 .extend-left-red:before {visibility:hidden;}
 .extend-left-white:before {visibility:hidden;}
 
-.bio .bioImg img {position: relative}
+.bio .bioImg img {position: relative;}
 
-.mt2em {margin-top: 2em}
-.csText {padding-top: 2em}
-img[src="img/cs-proAuto.png"] {margin-top: -3em}
-img[src="img/cs-become.png"] {margin-top: -3em}
-img[src="img/cs-cityWater.png"] {margin-top: -3em}
-img[src="img/cs-ozHarvest.png"] {margin-top: -3em}
+.mt2em {margin-top: 2em;}
+.csText {padding-top: 2em;}
+img[src="img/cs-proAuto.png"] {margin-top: -3em;}
+img[src="img/cs-become.png"] {margin-top: -3em;}
+img[src="img/cs-cityWater.png"] {margin-top: -3em;}
+img[src="img/cs-ozHarvest.png"] {margin-top: -3em;}
 }
 
 
