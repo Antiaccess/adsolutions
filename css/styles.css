@@ -74,6 +74,9 @@ h2 {font-size: 1.25em; font-weight: 700;color: #060068;}
 .myName {font-family: 'gt_sectramedium', serif; font-size: 1.7em;color: #060068; padding-top: 0.9em;}
 .global-menu__wrap a {font-family: 'gt_sectramedium', serif; text-decoration: none; color: #fff;}
 .global-menu__wrap a:hover {color: #060068;}
+.global-menu__wrap {padding: 20px;}
+.global-menu__item {font-size: 2.5em !important;}
+ul .global-menu__item {font-size: 1.5em !important;}
 
 /*Spacing*/
 section#caseSudies, section#blog, section#contact {margin-top: 10em;}
@@ -163,7 +166,7 @@ button.slick-prev, button.slick-next {visibility: hidden;}
 #hero {  margin-top: 3em; margin-bottom: 13em;}
 
 .heroText {text-align: center; margin-top: -30%;}
-.heroText span {font-family: 'gt_sectramedium', serif; font-size: 1.5em; background-color:#fff; color: #060068; background: #fff; display: inline-block; padding: 0.15em;}
+.heroText span {font-family: 'gt_sectramedium', serif; font-size: 1.5em; background-color:#fff; color: #060068; background: #fff; display: inline-block; padding: 0.15em; margin: 5px 0;}
 
 svg,
 svg circle {fill: #D94244;}
@@ -291,8 +294,6 @@ ul.slick-dots {display: none !important;}
 	display: table;
 }
 
-.row.caseStudy {max-height: 50vh;}
-
 .csText {padding: 2em; padding-top: 4em;}
 .csText.extend-left-red {background-color: #D94244;}
 .csText.extend-left-white {background-color: #fff;}
@@ -319,7 +320,12 @@ ul.slick-dots {display: none !important;}
   max-height: 100%;
   max-width: 100%;
   text-align: center;
+  padding: 1em;
 }
+.becomeEdu .csImg img {max-height: 90%;max-width: 90%;}
+.proAuto .csImg img {max-height: 90%;max-width: 100%;}
+.cityWater .csImg img {max-height: 99%;max-width: 100%;}
+.becomeEdu .csImg img {max-height: 90%;max-width: 90%;}
 
 /*testimonials*/
 #testimonials .reference .container {padding-right: 0px;}
@@ -413,9 +419,6 @@ ul.slick-dots {display: none !important;}
 /**    #caseStudies     **/
 /*************************/
 
-.global-menu__item {font-size: 3em !important;}
-ul .global-menu__item {font-size: 1.5em !important;}
-
 /*General Case Study*/
 .caseStudy .heroText {margin-top: 0;}
 .caseStudy #hero {margin-bottom: 8em;}
@@ -479,22 +482,29 @@ table.ozharvestInsights tr td:first-of-type {width: 55%;}
  /*************************/ 
 /**** MEDIA QUERIES ****/
 /*************************/
+@media screen and (max-width: 55em){
+.hamburger {position: fixed; top: 2em; right: 1em;}
+}
+
+@media (max-width:992px){
+ .bio .bioImg img {position: relative;}
+}
+
 @media (max-width:844px){
 .extend-right-red:before {visibility:hidden;}
 .extend-right-white:before {visibility:hidden;}
 .extend-left-red:before {visibility:hidden;}
 .extend-left-white:before {visibility:hidden;}
 
-.bio .bioImg img {position: relative;}
+.heroText {margin-top: -75%}
+#hero h1 {font-size: 1.5em;}
 
 .mt2em {margin-top: 2em;}
 .csText {padding-top: 2em;}
-img[src="img/cs-proAuto.png"] {margin-top: -3em;}
-img[src="img/cs-become.png"] {margin-top: -3em;}
-img[src="img/cs-cityWater.png"] {margin-top: -3em;}
-img[src="img/cs-ozHarvest.png"] {margin-top: -3em;}
+.csImg img {padding: 0.25em;}
+
+blockquote {margin: 10px 0 20px 0;}
+.refText {padding: 0.5em; font-size: 25px}
+.quote, .reference {margin: 0em;}
+.reference .logo {background-size: 80%;background-position: 50% 50%;}
 }
-
-
-
-
