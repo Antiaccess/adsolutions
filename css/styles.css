@@ -483,18 +483,20 @@ table.ozharvestInsights tr td:first-of-type {width: 55%;}
 /**** MEDIA QUERIES ****/
 /*************************/
 @media screen and (max-width: 55em){
-.hamburger {top: 2em !important; right: 1em !important;}
-}
+  .hamburger {top: 2em !important; right: 1em !important;}
+  .global-menu__item {font-size: 1.5em !important}
+  ul .global-menu__item {font-size: 1.25em !important;}
+  }
 
 @media (max-width:992px){
  .bio .bioImg img {position: relative;}
 }
 
-@media (max-width:1401px){.heroText {margin-top: -35%;}}
-@media (max-width:1201px){.heroText {margin-top: -49%;}}
-@media (max-width:993px){.heroText {margin-top: -59%;}}
-@media (max-width:769px){.heroText {margin-top: -45%;}}
-@media (max-width:577px){.heroText {margin-top: -55% !important;}}
+@media (max-width:1401px){body#homePage .heroText {margin-top: -35%;}}
+@media (max-width:1201px){body#homePage .heroText {margin-top: -49%;}}
+@media (max-width:993px){body#homePage .heroText {margin-top: -59%;}}
+@media (max-width:769px){body#homePage .heroText {margin-top: -45%;}}
+@media (max-width:577px){body#homePage .heroText {margin-top: -55%;}}
 
 @media (max-width:844px){
 .extend-right-red:before {visibility:hidden;}
