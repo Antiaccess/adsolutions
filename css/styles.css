@@ -483,7 +483,7 @@ table.ozharvestInsights tr td:first-of-type {width: 55%;}
 /**** MEDIA QUERIES ****/
 /*************************/
 @media screen and (max-width: 55em){
-.hamburger {position: fixed; top: 2em; right: 1em;}
+.hamburger {top: 2em !important; right: 1em !important;}
 }
 
 @media (max-width:992px){
