@@ -490,13 +490,18 @@ table.ozharvestInsights tr td:first-of-type {width: 55%;}
  .bio .bioImg img {position: relative;}
 }
 
+@media (max-width:1401px){.heroText {margin-top: -35%;}}
+@media (max-width:1201px){.heroText {margin-top: -49%;}}
+@media (max-width:993px){.heroText {margin-top: -59%;}}
+@media (max-width:769px){.heroText {margin-top: -45%;}}
+@media (max-width:577px){.heroText {margin-top: -55% !important;}}
+
 @media (max-width:844px){
 .extend-right-red:before {visibility:hidden;}
 .extend-right-white:before {visibility:hidden;}
 .extend-left-red:before {visibility:hidden;}
 .extend-left-white:before {visibility:hidden;}
 
-.heroText {margin-top: -75%}
 #hero h1 {font-size: 1.5em;}
 
 .mt2em {margin-top: 2em;}
