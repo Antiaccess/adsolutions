@@ -450,6 +450,19 @@ ul.slick-dots {display: none !important;}
   .csContent .row:not(:first-of-type) > div {padding: 2em 1em;}
 }
  
+
+
+ /*************************/
+/**    #BecomeEdu        **/
+/**************************/
+#csBecome.caseStudy #hero .row:first-of-type {background: url("../img/become-logo.svg") no-repeat; background-size: auto 100% !important;}
+
+ /*************************/
+/**    #Pro  Auto        **/
+/**************************/
+#csProauto.caseStudy #hero .row:first-of-type {background: url("../img/proauto/vehicle.svg") no-repeat; background-size: auto 100% !important;}
+
+
  /*************************/
 /**    #cityWaterTech    **/
 /**************************/
@@ -460,11 +473,6 @@ table.cwtInsights tr th p { color: #ffffff;}
 table.cwtInsights tr {border-top: 1px solid #060068;}
 table.cwtInsights tr td {padding: 1em; vertical-align: top;}
 table.cwtInsights tr td:first-of-type {width: 65%;}
-
- /*************************/
-/**    #BecomeEdu        **/
-/**************************/
-#csBecome.caseStudy #hero .row:first-of-type {background: url("../img/become-logo.svg") no-repeat; background-size: auto 100% !important;}
 
  /*************************/
 /**    #OzHarvest        **/
