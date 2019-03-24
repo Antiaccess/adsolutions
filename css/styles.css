@@ -180,7 +180,7 @@ svg circle {fill: #D94244;}
   animation: from0to360 1s linear infinite;
   cx: 150;
   cy: 145;
-  r: 100;
+  r: 130;
   transform-origin: 145px 150px;
 }
 
@@ -193,7 +193,7 @@ svg circle {fill: #D94244;}
   animation: from360to0 2s linear infinite;
   cx: 150;
   cy: 155;
-  r: 100;
+  r: 130;
   transform-origin: 155px 150px;
 }
 
@@ -201,7 +201,7 @@ svg circle {fill: #D94244;}
   animation: from0to360 3s linear infinite;
   cx: 145;
   cy: 150;
-  r: 100;
+  r: 130;
   transform-origin: 150px 145px;
 }
 
@@ -209,7 +209,7 @@ svg circle {fill: #D94244;}
   animation: from360to0 2.5s linear infinite;
   cx: 155;
   cy: 150;
-  r: 100;
+  r: 130;
   transform-origin: 150px 155px;
 }
 
