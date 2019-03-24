@@ -504,7 +504,11 @@ table.ozharvestInsights tr td:first-of-type {width: 55%;}
 @media (max-width:1201px){body#homePage .heroText {margin-top: -49%;}}
 @media (max-width:993px){body#homePage .heroText {margin-top: -59%;}}
 @media (max-width:769px){body#homePage .heroText {margin-top: -45%;}}
-@media (max-width:577px){body#homePage .heroText {margin-top: -55%;}}
+@media (max-width:769px){body#homePage .heroText {margin-top: -45%;}}
+@media (max-width:577px){body#homePage .heroText {margin-top: -45%;}}
+@media (max-width:492px){body#homePage .heroText {margin-top: -60%;}}
+@media (max-width:442px){body#homePage .heroText {margin-top: -66%;}}
+@media (max-width:400px){body#homePage .heroText {margin-top: -76%;}}
 
 @media (max-width:844px){
 .extend-right-red:before {visibility:hidden;}
