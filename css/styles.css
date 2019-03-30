@@ -306,10 +306,10 @@ ul.slick-dots {display: none !important;}
   padding: 2.5vh;
 }
 @media (min-width:992px) {.csText div {padding-top: 2em}}
-.proAuto h2, .ozHarvest h2 {color: #fff;}
+.becomeEdu h2, .ozHarvest h2 {color: #fff;}
 
 .csImg {background-color: #fff;padding: 1vh;position: relative;}
-.proAuto .csImg, .ozHarvest .csImg {background-color: #D94244;}
+.becomeEdu .csImg, .ozHarvest .csImg {background-color: #D94244;}
 
 .caseStudy .csImg {
   vertical-align: middle;
