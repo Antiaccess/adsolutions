@@ -407,12 +407,12 @@ ul.slick-dots {display: none !important;}
 }
 
 /*Contact & Footer*/
-#contact, #footer {
-  text-align: center;
-}
+#contact, #footer {text-align: center;}
 
 #contact .row {padding: 2em; background-color: #fff;}
-.contactIcons img {width: 70px; height: auto; padding: 1em 0.75em 0em 0.75em;}
+.contactIcons a {text-decoration: none; margin-right: 10px}
+.contactIcons {margin: 20px;}
+.contactIcons a:hover path {fill: #060068}
 
 
 
