@@ -341,6 +341,7 @@ ul.slick-dots {display: none !important;}
 
 .quote blockquote {font-weight: lighter; text-align: center;}
 .quote .quoter {text-align: center;}
+.quote img {width: 100px; margin-right: 5px;}
 .quote img, .quote span {display: inline-block !important; vertical-align: middle;}
 .btn-slick .quotePrev {margin-left: 1em;}
 
