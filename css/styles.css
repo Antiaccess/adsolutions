@@ -26,7 +26,7 @@
   font-family: 'quicksand';
   src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
        url('../fonts/quicksand-regular-webfont.woff') format('woff');
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
 }
 @font-face {
@@ -48,6 +48,13 @@
   src: url('../fonts/quicksand-light-webfont.woff2') format('woff2'),
        url('../fonts/quicksand-light-webfont.woff') format('woff');
   font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'quicksand';
+  src: url('../fonts/quicksand-medium-webfont.woff2') format('woff2'),
+       url('../fonts/quicksand-medium-webfont.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
 }
 
