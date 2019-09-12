@@ -321,6 +321,9 @@ ul.slick-dots {display: none !important;}
 .caseStudy .csImg {
   vertical-align: middle;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .csImg img {
@@ -333,6 +336,8 @@ ul.slick-dots {display: none !important;}
 .proAuto .csImg img {max-height: 90%;max-width: 100%;}
 .cityWater .csImg img {max-height: 99%;max-width: 100%;}
 .becomeEdu .csImg img {max-height: 90%;max-width: 90%;}
+
+@media (max-width:767px){.caseStudy .csText, .caseStudy .csText div {padding-top: 0}}
 
 /*testimonials*/
 #testimonials .reference .container {padding-right: 0px;}
