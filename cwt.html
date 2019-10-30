@@ -797,7 +797,20 @@
                     <div class="row">
                         <div class="col-md-3"></div>
                         <div class="col-md-6">
-                            <p>Designed & Developed by Anthony Drane</p>
+                            <svg id="" width="300" height="64px" style="">
+                                <defs>
+                                    <filter id="goo">
+                                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+                                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"></feColorMatrix>
+                                        <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+                                    </filter>
+                                </defs>
+                                <circle id="Circle1"></circle>
+                                <circle id="Circle2"></circle>
+                                <circle id="Circle3"></circle>
+                                <circle id="Circle4"></circle>
+                            </svg>
+                        <p style="margin-top: 5px;">Designed & Developed by Anthony Drane</p>
                         </div>
                         <div class="col-md-3"></div>
                     </div>
