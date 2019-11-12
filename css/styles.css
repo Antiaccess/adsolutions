@@ -88,7 +88,6 @@ ul .global-menu__item {font-size: 1.5em !important;}
 /*Spacing*/
 section#caseSudies, section#blog, section#contact {margin-top: 10em;}
 section#footer {margin: 2em 0;}
-.sectHead {background: #fff; font-family: 'gt_sectramedium', serif;font-size:1.5em; text-align: center; padding: 0.5em;}
 
 /*Buttons*/
 .btn {
@@ -219,6 +218,8 @@ svg circle {fill: #D94244;}
   r: 130;
   transform-origin: 150px 155px;
 }
+
+#homePage .sectHead {background: #fff; font-family: 'gt_sectramedium', serif;font-size:1.5em; text-align: center; padding: 0.5em;}
 
 /* About */
 .bio {
@@ -451,6 +452,8 @@ ul.slick-dots {display: none !important;}
       transform: translateY(0px);
   }
 }
+
+@media (max-width:767px){.csRow > .col-md-3 p {display:none;}}
  
 .caseStudy #context {margin: 5em 0;}
 .csRow > div {background: #fff; padding: 0 2em;}
@@ -459,10 +462,22 @@ ul.slick-dots {display: none !important;}
 
 .caseStudy #context div {text-align: center;}
  @media (min-width:844px){
-  .csRow > .col-md-3 {text-align: right;}
   .csContent .row:not(:first-of-type) > div {padding: 2em 1em;}
 }
  
+.csContent .container .row.csRow:nth-child(2) div.col-md-3:nth-child(2),
+.csContent .container .row.csRow:nth-child(2) div.col-md-7:nth-child(2),
+.csContent .container .row.csRow:nth-child(2) div.col-md-10:nth-child(2),
+.csContent .container .row.csRow:nth-child(2) div.col-md-5:nth-child(2) {padding-top: 60px;}
+
+@media (min-width:768px){
+  .csContent .container .row.csRow:nth-child(2) .col-md-3,
+  .csContent .container .row.csRow:nth-child(2) .col-md-7,
+  .csContent .container .row.csRow:nth-child(2) .col-md-10,
+  .csContent .container .row.csRow:nth-child(2) .col-md-5 {padding-top: 75px;}
+}
+
+.csContent .row:not(.csRow) .sectHead  { font-family: 'gt_sectramedium', serif; font-size: 3em !important; color: #D94244 !important; margin-bottom: -26px !important; z-index: 100 !important; background: none;}
 
 
  /*************************/
