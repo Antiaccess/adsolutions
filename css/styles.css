@@ -167,6 +167,7 @@ button.slick-prev, button.slick-next {visibility: hidden;}
   html, body {
       z-index: 0 !important;
       overflow: scroll !important;
+      overflow-x: scroll !important;
   }
 }
 
