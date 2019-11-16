@@ -467,9 +467,10 @@ ul.slick-dots {display: none !important;}
 }
  
 .csContent .container .row.csRow:nth-child(2) div.col-md-3:nth-child(2),
-.csContent .container .row.csRow:nth-child(2) div.col-md-7:nth-child(2),
+.csContent .container .row.csRow:nth-child(2) div.col-md-7:nth-child(3),
 .csContent .container .row.csRow:nth-child(2) div.col-md-10:nth-child(2),
-.csContent .container .row.csRow:nth-child(2) div.col-md-5:nth-child(2) {padding-top: 60px;}
+.csContent .container .row.csRow:nth-child(2) div.col-md-5:nth-child(2),
+.csContent .container .row.csRow:nth-child(2) div.col-md-5:nth-child(3) {padding-top: 60px;}
 
 @media (min-width:768px){
   .csContent .container .row.csRow:nth-child(2) .col-md-3,
