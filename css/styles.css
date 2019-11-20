@@ -339,6 +339,10 @@ ul.slick-dots {display: none !important;}
 .cityWater .csImg img {max-height: 99%;max-width: 100%;}
 .becomeEdu .csImg img {max-height: 90%;max-width: 90%;}
 
+.sevenDayEx p {border: 1px dashed #fff; text-align: center; margin: 1em 0 1em 0; padding: 20px;}
+.sevenDayEx a {background-color: #fff; padding: 10px 15px; color: #D94244; margin-left: 10px; text-decoration: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.sevenDayEx a:hover {background-color: #D94244; outline: 1px solid #fff; color: #fff;}
+
 @media (max-width:767px){.caseStudy .csText, .caseStudy .csText div {padding-top: 0}}
 
 /*testimonials*/
