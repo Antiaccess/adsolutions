@@ -172,7 +172,7 @@ button.slick-prev, button.slick-next {visibility: hidden;}
 /* #homePage - Hero */
 #hero {  margin-top: 3em; margin-bottom: 13em;}
 
-.heroText {text-align: center; margin-top: -30%;}
+.heroText {text-align: center;margin-top: -30%;position: absolute;width: 100%;}
 .heroText span {font-family: 'gt_sectramedium', serif; font-size: 1.5em; background-color:#fff; color: #060068; background: #fff; display: inline-block; padding: 0.15em; margin: 5px 0;}
 
 svg,
