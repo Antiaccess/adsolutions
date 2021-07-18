@@ -371,6 +371,10 @@ ul.slick-dots {display: none !important;}
   background-size: cover;
   background-position: right 0;
 }
+.sludge .image {
+  background-image: url("../img/sludge.jpg");
+  background-position: 70% 0;
+}
 .ixda .image {
   background-image: url("../img/IxDA-group.png");
 }
@@ -382,6 +386,10 @@ ul.slick-dots {display: none !important;}
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: 50% 40%;
+}
+.sludge .logo {
+  background-image: url("../img/sludge.png");
+  background-size: 30%;
 }
 .ixda .logo {
   background-image: url("../img/IxDA@2x.png");
@@ -559,5 +567,5 @@ table.ozharvestInsights tr td:first-of-type {width: 55%;}
 blockquote {margin: 10px 0 20px 0;}
 .refText {padding: 0.5em; font-size: 25px}
 .quote, .reference {margin: 0em;}
-.reference .logo {background-size: 80%;background-position: 50% 50%;}
+.reference .gAssembly .logo {background-size: 80%;background-position: 50% 50%;}
 }
