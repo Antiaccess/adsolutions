@@ -354,6 +354,9 @@ ul.slick-dots {display: none !important;}
   background-size: 35%;
   background-position: 50% 20%;
   background-repeat: no-repeat;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
 }
 .quote, .reference {background-color: #fff; margin: 1em;  height: 100%;}
 
