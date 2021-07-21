@@ -361,7 +361,7 @@ ul.slick-dots {display: none !important;}
 .quote, .reference {background-color: #fff; margin: 1em;  height: 100%;}
 
 .quote blockquote {font-weight: lighter; text-align: center; font-style: italic;}
-.quote .quoter {text-align: center; padding-top: 10px;}
+.quote .quoter {text-align: center; padding-top: 10px; width: 100%;}
 .quote img {width: 100px; margin-right: 5px;}
 .quote img, .quote span {display: inline-block !important; vertical-align: middle;}
 .btn-slick .quotePrev {margin-left: 1em;}
