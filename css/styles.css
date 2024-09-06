@@ -222,6 +222,13 @@ svg circle {fill: #D94244;}
 
 #homePage .sectHead {background: #fff; font-family: 'gt_sectramedium', serif;font-size:1.5em; text-align: center; padding: 0.5em;}
 
+/* Under Construction */
+#underConstruction .row {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  text-align: center;
+}
+
 /* About */
 .bio {
   background-color: #fff;
@@ -349,7 +356,7 @@ ul.slick-dots {display: none !important;}
 #testimonials .reference .container {padding-right: 0px;}
 
 .quote {
-  padding: 2.5em;
+  padding: 1em;
   background-image: url(../img/quote-bg.svg);
   background-size: 35%;
   background-position: 50% 20%;
@@ -358,7 +365,18 @@ ul.slick-dots {display: none !important;}
   align-content: center;
   flex-wrap: wrap;
 }
-.quote, .reference {background-color: #fff; margin: 1em;  height: 100%;}
+
+#quotePerson {
+  text-align: center;
+  width: 100%;
+  padding-top: 0.5em;
+}
+
+#quotePerson img {
+  margin-bottom: 0.5em;
+}
+
+.quote, .reference {background-color: #fff; margin: 0.5em;  height: 100%;}
 
 .quote blockquote {font-weight: lighter; text-align: center; font-style: italic;}
 .quote .quoter {text-align: center; padding-top: 10px; width: 100%;}
@@ -366,13 +384,17 @@ ul.slick-dots {display: none !important;}
 .quote img, .quote span {display: inline-block !important; vertical-align: middle;}
 .btn-slick .quotePrev {margin-left: 1em;}
 
-.refText {background: #fff; padding: 1em; font-size: 1.75em; font-weight: bold;}
+.refText {background: #fff; padding: 0.5em 1em 0.5em 1em; font-size: 1.75em; font-weight: bold;}
 .reference .col-sm-6, .reference .col-sm-6 .row {height: 100%;}
 .reference .col-md-12 {height: 50%;}
 
 .reference .image {
   background-size: cover;
   background-position: right 0;
+}
+.rmit .image {
+  background-image: url("../img/CS-RMIT.jpg");
+  background-position: 70% 0;
 }
 .sludge .image {
   background-image: url("../img/sludge.jpg");
@@ -387,16 +409,17 @@ ul.slick-dots {display: none !important;}
 
 .reference .logo {
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: 50% 40%;
+  background-size: 60%;
+  background-position: 50% 50%;
+}
+.rmit .logo {
+  background-image: url("../img/rmit.svg");
 }
 .sludge .logo {
   background-image: url("../img/sludge.png");
-  background-size: 30%;
 }
 .ixda .logo {
   background-image: url("../img/IxDA@2x.png");
-  background-size: 30%;
 }
 .gAssembly .logo {
   background-image: url("../img/General_Assembly_logo.svg");
